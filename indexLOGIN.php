@@ -40,26 +40,26 @@ if (!$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName))
     <label for "leads">Select yourself&nbsp&nbsp&nbsp&nbsp&nbsp</label>
     <select name="leads" id="leads">
         <option value="<?php echo $_COOKIE['leadname'];?>" selected><?php echo $leadtext;?></opton>
-        <option value="Aaron">Aaron Carlisle</option>
-        <option value="Alan">Alan Ramsey</option>
-        <option value="Andrew">Andrew Onslow</option>
-        <option value="Bailey">Andy Bailey</option>
-        <option value="Ben">Ben Senff</option>
-        <option value="Bogus">Chris Bogus</option>
-        <option value="Chris">Chris Rahel</option>
-        <option value="Zero">Christopher Rozman</option> 
-        <option value="Collin">Collin Turner</option>
-        <option value="Curtis">Curtis Hendrix</option>
-        <option value="Joe">Joe Bomba</option>
-        <option value="Joel">Joel Maus</option>
-        <option value="Josh">Josh Burton</option>
-        <option value="Matt">Matt Onslow</option> 
-        <option value="Mike">Mike Medley</option> 
-        <option value="Nate">Nate Hinderer</option>
-        <option value="Nathan">Nathan Steele</option> 
-        <option value="Neal">Neal Billig</option> 
-        <option value="Tim">Tim May</option>     
-        <option value="Travis">Travis Secrest</option>
+        <option value="Aaron">Aaron </option>
+        <option value="Alan">Alan </option>
+        <option value="Andrew">Andrew </option>
+        <option value="Bailey">Andy </option>
+        <option value="Ben">Ben </option>
+        <option value="Bogus">Chris </option>
+        <option value="Chris">Chris </option>
+        <option value="Zero">Christopher </option> 
+        <option value="Collin">Collin </option>
+        <option value="Curtis">Curtis </option>
+        <option value="Joe">Joe </option>
+        <option value="Joel">Joel </option>
+        <option value="Josh">Josh </option>
+        <option value="Matt">Matt </option> 
+        <option value="Mike">Mike </option> 
+        <option value="Nate">Nate </option>
+        <option value="Nathan">Nathan </option> 
+        <option value="Neal">Neal </option> 
+        <option value="Tim">Tim </option>     
+        <option value="Travis">Travis </option>
     </select>
     </h3>
     <h3>
