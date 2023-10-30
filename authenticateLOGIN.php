@@ -11,8 +11,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if(!empty($_POST["password"])) {
         $password = $_POST["password"];
         
-        if($password == '********') {
-            setcookie('*******','21',time() + (86400 * 30));
+        if($password == '*****') {
+            setcookie('****','***',time() + (86400 * 30));
             session_start();
             $_SESSION["authenticated"] = 'true';
             header('Location: index.php');
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             header('Location: authenticate.php');
         }
         
-    } else if (isset($_COOKIE['********'])) {    //cookie set
+    } else if (isset($_COOKIE['*****'])) {    //cookie set
     
              session_start();
             $_SESSION["authenticated"] = 'true';
